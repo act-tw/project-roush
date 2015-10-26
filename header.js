@@ -1,3 +1,5 @@
+var isLocal = /^file\:\/\/\//i.test(location.href);
+
 $(function() {
 	(function() {
 	    $(window).scroll(function() {
@@ -36,4 +38,19 @@ $(function() {
             }, 100);
         });
     })(); //bagbox show hide
+    (function() {
+        var data={UserId: "",IsLogin: false};
+        function getData(data) {
+            if (data !== null && data.IsLogin) {
+                $(".loginlogout").attr("href", "../common/loginout.aspx").text("會員登出");
+            }
+        }
+        if (isLocal) {
+            getData(data);
+        } else {
+            $.getJSON("../Common/LoginStatus.ashx",function(data){
+                getData(data);
+            }); 
+        }
+    })(); //login
 });
