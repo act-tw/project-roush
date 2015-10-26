@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+}
+
+.header.min {
+    position: fixed;
+    width: 100%;
+}
+
+.header>.up {
+    height: 136px;
+    background-color: #2f2f2f;
+}
+
+.header.min>.up {
+    height: 117px;
+}
+
+.header>.up>div {
+    max-width: 1225px;
+    margin: 0 auto;
+    height: 136px;
+    text-align: center;
+    position: relative;
+}
+
+.header.min>.up>div {
+    height: 117px;
+}
+
+.header>.up>div>.logo {
+    background-image: url(http://roush.hishop.com.tw/UserFiles/upFiles/images/LOGOa.png);
+    width: 150px;
+    height: 91px;
+    font-size: 0;
+    display: inline-block;
+    margin-top: 28px;
+    margin-left: -6px;
+}
+
+.header.min>.up>div>.logo {
+    background-image: url(http://roush.hishop.com.tw/UserFiles/upFiles/images/LOGOb.png);
+    width: 184px;
+    height: 41px;
+    margin-top: 38px;
+    font-size: 0;
+}
+
+.header>.up>div>.left {
+    width: 238px;
+    height: 38px;
+    background-color: white;
+    margin-top: -29px;
+    position: absolute;
+    margin-left: 1px;
+}
+
+.header>.up>div>.left>.fb {
+    background-image: url(http://roush.hishop.com.tw/UserFiles/upFiles/images/F.png);
+    width: 11px;
+    height: 24px;
+    display: block;
+    font-size: 0;
+    position: absolute;
+    top: 9px;
+    left: 13px;
+}
+
+.header>.up>div>.left>span {
+    margin-left: -75px;
+    margin-top: 10px;
+    position: absolute;
+    font-size: 19px;
+    color: gray;
+}
+
+.header>.up>div>.left>.magnifier {
+    background-image: url(http://roush.hishop.com.tw/UserFiles/upFiles/images/Magnifier.png);
+    width: 15px;
+    height: 15px;
+    font-size: 0;
+    margin-left: 61px;
+    margin-top: 14px;
+}
+
+.header>.up>div>.left>form>.search {
+    margin-left: -38px;
+    margin-top: -18px;
+    position: absolute;
+    background-color: transparent;
+    color: black;
+    border: 0;
+    border-bottom: 1px solid;
+    width: 144px;
+    padding: 0;
+    font-size: 13px;
+    outline: none;
+    padding-bottom: 3px;
+}
+
+.header>.up>div>.right {
+    position: absolute;
+    right: 3px;
+    bottom: 8px;
+}
+
+.header.min>.up>div>.right {
+    bottom: 26px;
+}
+
+.header>.up>div>.right>a {
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    font-family: 微軟正黑體;
+}
+
+.header>.up>div>.right>span {
+    font-size: 23px;
+    color: white;
+    margin: 0px 11px;
+}
+
+.header>.up>div>.right>.bagbox {
+    display: none;
+    width: 425px;
+    min-height: 134px;
+    background-color: white;
+    margin-top: 1px;
+    margin-left: -374px;
+    position: absolute;
+}
+
+.header>.up>div>.right>.bagbox>.tablehead {
+    width: 423px;
+    margin-top: 1px;
+    margin-left: 1px;
+}
+
+.header>.up>div>.right>.bagbox>.tablehead>thead>tr>td {
+    background-color: black;
+    color: white;
+    height: 24px;
+    font-size: 12px;
+}
+
+.header>.up>div>.right>.bagbox>.tablehead>thead>tr>td.first {
+    padding-left: 44px;
+}
+
+.header>.up>div>.right>.bagbox>.tablebody {
+    margin-top: -1px;
+    width: 421px;
+    margin-left: 2px;
+    border-bottom: 2px dotted #dcdcdc;
+}
+
+.header>.up>div>.right>.bagbox>.tablebody td {
+    border-right: 1px solid #dcdcdc;
+    padding: 3px 3px;
+    font-size: 12px;
+    font-family: arial, 微軟正黑體;
+}
+
+.header>.up>div>.right>.bagbox>.tablebody td.end {
+    border-right: 0;
+}
+
+.header>.up>div>.right>.bagbox>.totalmoney {
+    margin-top: 7px;
+    font-size: 14px;
+    margin-left: 294px;
+    font-family: 微軟正黑體;
+    color: red;
+    font-weight: bold;
+}
+
+.header>.up>div>.right>.bagbox>.totalmoney>span {
+    width: 65px;
+    display: inline-block;
+    text-align: center;
+}
+
+.header>.up>div>.right>.bagbox>.btn {
+    width: 120px;
+    background-color: black;
+    margin: 11px 296px;
+    height: 28px;
+}
+
+.header>.up>div>.right>.bagbox>.btn>.divlink {
+    text-align: center;
+    font-size: 14px;
+    font-family: 微軟正黑體;
+    line-height: 28px;
+    color: #f5d800;
+    font-weight: bold;
+}
+
+.header>.down {
+    height: 51px;
+    background-color: white;
+}
+
+
+/* test */
+
+body {
+    background-color: pink;
+}
