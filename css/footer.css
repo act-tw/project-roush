@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+
+.footer {
+    width: 100%;
+    background-color: #2f2f2f;
+}
+
+.footer>div {
+    max-width: 1225px;
+    min-height: 152px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.footer>div>.left {
+    float: left;
+    margin-left: 62px;
+    margin-top: 12px;
+}
+
+.footer>div>.left>div {
+    font-family: 微軟正黑體;
+    color: white;
+    font-size: 17px;
+    line-height: 33px;
+}
+
+.footer>div>.right {
+    float: right;
+    margin-right: 87px;
+    margin-top: 13px;
+}
+
+.footer>div>.right>a {
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.footer>div>.right>span {
+    color: white;
+    margin: 0 9px;
+    font-size: 25px;
+}
