@@ -41,48 +41,7 @@ function showMomentShoppingCart() {
     });
 }
 function initShoppingCart(callback) {
-    var cartlist = [{
-        "MerNo": "SBSS017",
-        "MerNo1": "BSS017",
-        "MerName": "ELMO條紋短T",
-        "Color": "74丈青",
-        "Size": "S",
-        "Price": 350,
-        "Num": 1,
-        "PhotoSmPath": "http://www.caco.url.tw/caco/PD/BSS017_260_2.jpg",
-        "ColorPhotoPath": "http://www.caco.url.tw/caco/COLOR/BSS01774.jpg"
-    }, {
-        "MerNo": "SBCA071",
-        "MerNo1": "BCA071",
-        "MerName": "雪花鬚邊牛仔短褲",
-        "Color": "70淺藍",
-        "Size": "M",
-        "Price": 550,
-        "Num": 1,
-        "PhotoSmPath": "http://www.caco.url.tw/caco/PD/BCA071_260_1.jpg",
-        "ColorPhotoPath": "http://www.caco.url.tw/caco/COLOR/BCA07170.jpg"
-    }, {
-        "MerNo": "SBNA006",
-        "MerNo1": "BNA006",
-        "MerName": "潑漆破壞牛仔短褲‧情侶款(女)",
-        "Color": "70淺藍",
-        "Size": "M",
-        "Price": 680,
-        "Num": 1,
-        "PhotoSmPath": "http://www.caco.url.tw/caco/PD/BNA006_260_1.jpg",
-        "ColorPhotoPath": "http://www.caco.url.tw/caco/COLOR/BNA00670.jpg"
-    }, {
-        "MerNo": "SBSS013",
-        "MerNo1": "BSS013",
-        "MerName": "MIT 拼接數字ELMO背心‧情侶款(女)",
-        "Color": "34紅色",
-        "Size": "F",
-        "Price": 350,
-        "Num": 1,
-        "PhotoSmPath": "http://www.caco.url.tw/caco/PD/BSS013_260_1.jpg",
-        "ColorPhotoPath": "http://www.caco.url.tw/caco/COLOR/BSS01334.jpg"
-    }];
-
+    var cartlist = [{"MerNo":"SBSS017","MerNo1":"BSS017","MerName":"ELMO條紋短T","Color":"74丈青","Size":"S","Price":350,"Num":1,"PhotoSmPath":"http://www.caco.url.tw/caco/PD/BSS017_260_2.jpg","ColorPhotoPath":"http://www.caco.url.tw/caco/COLOR/BSS01774.jpg"},{"MerNo":"SBCA071","MerNo1":"BCA071","MerName":"雪花鬚邊牛仔短褲","Color":"70淺藍","Size":"M","Price":550,"Num":1,"PhotoSmPath":"http://www.caco.url.tw/caco/PD/BCA071_260_1.jpg","ColorPhotoPath":"http://www.caco.url.tw/caco/COLOR/BCA07170.jpg"},{"MerNo":"SBNA006","MerNo1":"BNA006","MerName":"潑漆破壞牛仔短褲‧情侶款(女)","Color":"70淺藍","Size":"M","Price":680,"Num":1,"PhotoSmPath":"http://www.caco.url.tw/caco/PD/BNA006_260_1.jpg","ColorPhotoPath":"http://www.caco.url.tw/caco/COLOR/BNA00670.jpg"},{"MerNo":"SBSS013","MerNo1":"BSS013","MerName":"MIT 拼接數字ELMO背心‧情侶款(女)","Color":"34紅色","Size":"F","Price":350,"Num":1,"PhotoSmPath":"http://www.caco.url.tw/caco/PD/BSS013_260_1.jpg","ColorPhotoPath":"http://www.caco.url.tw/caco/COLOR/BSS01334.jpg"}];
     function getdata(cartlist) {
         var html = "";
         var count = 0;
@@ -223,55 +182,7 @@ $(function() {
             }
         });
         (function() {
-            var data = [{
-                "uid": "0b82f6e0-5bcc-4339-8d63-1dcad621bc0c",
-                "image": "http://www.caco2.url.tw/caco/AC/images/15601-EVENT.gif",
-                "title": " ",
-                "thumb": null,
-                "url": "http://goo.gl/MBp04e",
-                "enable": true,
-                "sortnum": 0
-            }, {
-                "uid": "dc8066ce-0e56-4c1b-ac1e-aa20bb559e56",
-                "image": "http://www.caco2.url.tw/caco/AC/images/EVENT_70off_MAN.gif",
-                "title": "  ",
-                "thumb": null,
-                "url": "http://goo.gl/nRsAfd",
-                "enable": true,
-                "sortnum": 6
-            }, {
-                "uid": "d19061a7-6115-4c32-888c-2e07c3c48977",
-                "image": "http://www.caco2.url.tw/caco/AC/images/EVENT_70off_WOMAN.gif",
-                "title": "  ",
-                "thumb": null,
-                "url": "http://goo.gl/Io0uZO",
-                "enable": true,
-                "sortnum": 7
-            }, {
-                "uid": "165c01c1-9894-411c-a34a-93903914f0d8",
-                "image": "http://www.caco2.url.tw/caco/AC/images/150427-EVENT.gif",
-                "title": " ",
-                "thumb": null,
-                "url": "http://goo.gl/ekoxwm",
-                "enable": true,
-                "sortnum": 11
-            }, {
-                "uid": "8335181b-9971-489f-bc5e-05e73e7cb430",
-                "image": "http://www.caco2.url.tw/caco/AC/images/150427-EVENT-bonus.gif",
-                "title": " ",
-                "thumb": null,
-                "url": "http://goo.gl/XD1IEA",
-                "enable": true,
-                "sortnum": 12
-            }, {
-                "uid": "70764ce4-ea7b-45f1-8521-71241f16b6e6",
-                "image": "http://www.caco2.url.tw/caco/AC/images/150424-EVENT_over.gif",
-                "title": " ",
-                "thumb": null,
-                "url": "http://goo.gl/0TUpKF",
-                "enable": true,
-                "sortnum": 100
-            }];
+            var data = [{"uid":"0b82f6e0-5bcc-4339-8d63-1dcad621bc0c","image":"http://www.caco2.url.tw/caco/AC/images/15601-EVENT.gif","title":" ","thumb":null,"url":"http://goo.gl/MBp04e","enable":true,"sortnum":0},{"uid":"dc8066ce-0e56-4c1b-ac1e-aa20bb559e56","image":"http://www.caco2.url.tw/caco/AC/images/EVENT_70off_MAN.gif","title":"  ","thumb":null,"url":"http://goo.gl/nRsAfd","enable":true,"sortnum":6},{"uid":"d19061a7-6115-4c32-888c-2e07c3c48977","image":"http://www.caco2.url.tw/caco/AC/images/EVENT_70off_WOMAN.gif","title":"  ","thumb":null,"url":"http://goo.gl/Io0uZO","enable":true,"sortnum":7},{"uid":"165c01c1-9894-411c-a34a-93903914f0d8","image":"http://www.caco2.url.tw/caco/AC/images/150427-EVENT.gif","title":" ","thumb":null,"url":"http://goo.gl/ekoxwm","enable":true,"sortnum":11},{"uid":"8335181b-9971-489f-bc5e-05e73e7cb430","image":"http://www.caco2.url.tw/caco/AC/images/150427-EVENT-bonus.gif","title":" ","thumb":null,"url":"http://goo.gl/XD1IEA","enable":true,"sortnum":12},{"uid":"70764ce4-ea7b-45f1-8521-71241f16b6e6","image":"http://www.caco2.url.tw/caco/AC/images/150424-EVENT_over.gif","title":" ","thumb":null,"url":"http://goo.gl/0TUpKF","enable":true,"sortnum":100}];
             function getdata(data) {
                 var html = "";
                 for (var i = 0, max = data.length; i < max; i++) {
@@ -295,6 +206,43 @@ $(function() {
             }
         })(); //load event data
     })(); //event
+    (function() {
+        var data = [{"Idno":20,"Name":"demo","MouseoverName":"http://roush.hishop.com.tw/UserFiles/upFiles/images/NEWARRIVAL-.png","PhotoPath":"http://roush.hishop.com.tw/UserFiles/upFiles/images/NEWARRIVAL.png","MainPhoto":"http://xovera.verawang.com/uploads/Image/2013-10-10-Ded/WVW_image1.jpg","ShowType":0,"OrderNum":1,"V1":"","SubClass":[{"Idno":124,"Name":"Shop Demo","MouseoverName":"AINIA","TopIdno":99999,"Visible":false,"MobileVisibleType":1,"MainIdno":0,"ShowType":0,"V1":"","ordernum":100,"Level":0,"List":[]}]},{"Idno":15,"Name":"男裝","MouseoverName":"http://roush.hishop.com.tw/UserFiles/upFiles/images/MEN-.png","PhotoPath":"http://roush.hishop.com.tw/UserFiles/upFiles/images/MEN.png","MainPhoto":"http://media2.intoday.in/indiatoday/images/stories/mid-length-dress_storysize_350_121013014341.jpg","ShowType":0,"OrderNum":2,"V1":"","SubClass":[{"Idno":107,"Name":"  美式柔棉上衣","MouseoverName":"test","TopIdno":99999,"Visible":false,"MobileVisibleType":1,"MainIdno":0,"ShowType":0,"V1":"","ordernum":50,"Level":0,"List":[{"Idno":108,"Name":"   短袖上衣","MouseoverName":"","TopIdno":107,"Visible":false,"MobileVisibleType":1,"MainIdno":0,"ShowType":0,"V1":"","ordernum":51,"Level":0,"List":[]},{"Idno":109,"Name":"   長袖上衣","MouseoverName":"","TopIdno":107,"Visible":false,"MobileVisibleType":1,"MainIdno":0,"ShowType":0,"V1":"","ordernum":52,"Level":0,"List":[]}]},{"Idno":91,"Name":"  美式洗水襯衫","MouseoverName":"test","TopIdno":99999,"Visible":false,"MobileVisibleType":1,"MainIdno":0,"ShowType":0,"V1":"","ordernum":60,"Level":0,"List":[{"Idno":92,"Name":"   短袖襯衫","MouseoverName":"","TopIdno":91,"Visible":false,"MobileVisibleType":1,"MainIdno":0,"ShowType":0,"V1":"","ordernum":61,"Level":0,"List":[]},{"Idno":93,"Name":"   長袖襯衫","MouseoverName":"","TopIdno":91,"Visible":false,"MobileVisibleType":1,"MainIdno":0,"ShowType":0,"V1":"","ordernum":62,"Level":0,"List":[]}]},{"Idno":103,"Name":"  美式牛仔褲","MouseoverName":"test","TopIdno":99999,"Visible":false,"MobileVisibleType":1,"MainIdno":0,"ShowType":0,"V1":"","ordernum":70,"Level":0,"List":[]},{"Idno":106,"Name":"  美式軍裝外套","MouseoverName":"test","TopIdno":99999,"Visible":false,"MobileVisibleType":1,"MainIdno":0,"ShowType":0,"V1":"","ordernum":80,"Level":0,"List":[]},{"Idno":145,"Name":"測試大類別一","MouseoverName":"test","TopIdno":99999,"Visible":false,"MobileVisibleType":1,"MainIdno":0,"ShowType":0,"V1":"","ordernum":100,"Level":0,"List":[]},{"Idno":146,"Name":"測試大類別二","MouseoverName":"test","TopIdno":99999,"Visible":false,"MobileVisibleType":1,"MainIdno":0,"ShowType":0,"V1":"","ordernum":100,"Level":0,"List":[]},{"Idno":147,"Name":"測試大類別三","MouseoverName":"test","TopIdno":99999,"Visible":false,"MobileVisibleType":1,"MainIdno":0,"ShowType":0,"V1":"","ordernum":100,"Level":0,"List":[]},{"Idno":148,"Name":"測試大類別四","MouseoverName":"test","TopIdno":99999,"Visible":false,"MobileVisibleType":1,"MainIdno":0,"ShowType":0,"V1":"","ordernum":100,"Level":0,"List":[]},{"Idno":149,"Name":"測試大類別五","MouseoverName":"test","TopIdno":99999,"Visible":false,"MobileVisibleType":1,"MainIdno":0,"ShowType":0,"V1":"","ordernum":100,"Level":0,"List":[]},{"Idno":150,"Name":"測試大類別六","MouseoverName":"test","TopIdno":99999,"Visible":false,"MobileVisibleType":1,"MainIdno":0,"ShowType":0,"V1":"","ordernum":100,"Level":0,"List":[]},{"Idno":151,"Name":"測試大類別七","MouseoverName":"test","TopIdno":99999,"Visible":false,"MobileVisibleType":1,"MainIdno":0,"ShowType":0,"V1":"","ordernum":100,"Level":0,"List":[]},{"Idno":152,"Name":"測試大類別八","MouseoverName":"test","TopIdno":99999,"Visible":false,"MobileVisibleType":1,"MainIdno":0,"ShowType":0,"V1":"","ordernum":100,"Level":0,"List":[]},{"Idno":153,"Name":"測試大類別九","MouseoverName":"test","TopIdno":99999,"Visible":false,"MobileVisibleType":1,"MainIdno":0,"ShowType":0,"V1":"","ordernum":100,"Level":0,"List":[]},{"Idno":154,"Name":"測試大類別十","MouseoverName":"test","TopIdno":99999,"Visible":false,"MobileVisibleType":1,"MainIdno":0,"ShowType":0,"V1":"","ordernum":100,"Level":0,"List":[]}]},{"Idno":16,"Name":"女裝","MouseoverName":"http://roush.hishop.com.tw/UserFiles/upFiles/images/WOMEN-.png","PhotoPath":"http://roush.hishop.com.tw/UserFiles/upFiles/images/WOMEN.png","MainPhoto":"http://www.travelandstyle.ca/wp-content/uploads/2011/11/cocktail-dress-thumb.jpg","ShowType":0,"OrderNum":3,"V1":"","SubClass":[{"Idno":96,"Name":"  美式簡約上衣","MouseoverName":"test","TopIdno":99999,"Visible":false,"MobileVisibleType":1,"MainIdno":0,"ShowType":0,"V1":"","ordernum":50,"Level":0,"List":[{"Idno":101,"Name":"   短袖上衣","MouseoverName":"","TopIdno":96,"Visible":false,"MobileVisibleType":1,"MainIdno":0,"ShowType":0,"V1":"","ordernum":51,"Level":0,"List":[]},{"Idno":100,"Name":"   長袖上衣","MouseoverName":"","TopIdno":96,"Visible":false,"MobileVisibleType":1,"MainIdno":0,"ShowType":0,"V1":"","ordernum":52,"Level":0,"List":[]},{"Idno":143,"Name":"   短袖上衣1","MouseoverName":"","TopIdno":96,"Visible":false,"MobileVisibleType":1,"MainIdno":0,"ShowType":0,"V1":"","ordernum":100,"Level":0,"List":[]},{"Idno":144,"Name":"   長袖上衣2","MouseoverName":"","TopIdno":96,"Visible":false,"MobileVisibleType":1,"MainIdno":0,"ShowType":0,"V1":"","ordernum":100,"Level":0,"List":[]}]},{"Idno":112,"Name":"  美式修身下身","MouseoverName":"test","TopIdno":99999,"Visible":false,"MobileVisibleType":1,"MainIdno":0,"ShowType":0,"V1":"","ordernum":60,"Level":0,"List":[{"Idno":114,"Name":"   七分牛仔褲","MouseoverName":"","TopIdno":112,"Visible":false,"MobileVisibleType":1,"MainIdno":0,"ShowType":0,"V1":"","ordernum":61,"Level":0,"List":[]},{"Idno":113,"Name":"   水洗牛仔褲","MouseoverName":"","TopIdno":112,"Visible":false,"MobileVisibleType":1,"MainIdno":0,"ShowType":0,"V1":"","ordernum":62,"Level":0,"List":[]}]},{"Idno":142,"Name":"無小類別的連結","MouseoverName":"","TopIdno":99999,"Visible":false,"MobileVisibleType":1,"MainIdno":0,"ShowType":0,"V1":"","ordernum":100,"Level":0,"List":[]},{"Idno":155,"Name":"4444","MouseoverName":"","TopIdno":99999,"Visible":false,"MobileVisibleType":1,"MainIdno":0,"ShowType":0,"V1":"","ordernum":100,"Level":0,"List":[]},{"Idno":156,"Name":"5555","MouseoverName":"","TopIdno":99999,"Visible":false,"MobileVisibleType":1,"MainIdno":0,"ShowType":0,"V1":"","ordernum":100,"Level":0,"List":[]},{"Idno":157,"Name":"6666","MouseoverName":"","TopIdno":99999,"Visible":false,"MobileVisibleType":1,"MainIdno":0,"ShowType":0,"V1":"","ordernum":100,"Level":0,"List":[]}]},{"Idno":17,"Name":"配件","MouseoverName":"http://roush.hishop.com.tw/UserFiles/upFiles/images/OUTLET-.png","PhotoPath":"http://roush.hishop.com.tw/UserFiles/upFiles/images/OUTLET.png","MainPhoto":"http://xovera.verawang.com/uploads/Image/2013-10-10-Ded/WVW_image1.jpg","ShowType":0,"OrderNum":4,"V1":"","SubClass":[{"Idno":98,"Name":"  美式率性配件","MouseoverName":"test","TopIdno":99999,"Visible":false,"MobileVisibleType":1,"MainIdno":0,"ShowType":0,"V1":"","ordernum":50,"Level":0,"List":[]}]},{"Idno":19,"Name":"NEW","MouseoverName":"","PhotoPath":"","MainPhoto":"http://www.womangettingmarried.com/wp-content/uploads/2013/11/WVW_ebony_350x225.jpg","ShowType":0,"OrderNum":100,"V1":"","SubClass":[{"Idno":119,"Name":"新品","MouseoverName":"NEW","TopIdno":99999,"Visible":false,"MobileVisibleType":1,"MainIdno":0,"ShowType":0,"V1":"","ordernum":100,"Level":0,"List":[{"Idno":120,"Name":"NEW","MouseoverName":"","TopIdno":119,"Visible":false,"MobileVisibleType":1,"MainIdno":0,"ShowType":0,"V1":"","ordernum":100,"Level":0,"List":[]}]}]}];
+        function getdata(data) {
+            var html="";
+            for (var i = 0, max = data.length; i < max; i++) {
+                html += "<a href=\"";
+                switch (data[i].ShowType) {
+                    case 0:
+                        html += "../Shop/itemList.aspx?m=" + data[i].Idno;
+                        break;
+                    case 2:
+                    case 3:
+                        html += data[i].V1;
+                        break;
+                }
+                html +="\"";
+                if (data[i].ShowType === 3) {
+                    html += " target=\"_blank\"";
+                }
+                html += "><img src=\"" + data[i].PhotoPath + "\" hover=\"" + data[i].MouseoverName + "\"></a>";
+            }
+            $(".header>.down").html(html);
+            $("img[hover]").on("mouseover mouseleave",function() {
+                var $this = $(this),
+                    src = $this.attr("src");
+                $this.attr("src", $this.attr("hover"));
+                $this.attr("hover", src);
+            });
+        }
+        if (isLocal) {
+            getdata(data);
+        } else {
+            $.getJSON("../common/ajax/menucmd.ashx", function(data) {
+                getdata(data);
+            });
+        }
+    })(); //menu load
     (function() {
         initShoppingCart();
     })(); //init
