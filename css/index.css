@@ -1,5 +1,5 @@
 body {
-    margin:0;
+    margin: 0;
 }
 
 body #container {
@@ -103,4 +103,30 @@ body #container {
     background-image: url(http://roush.hishop.com.tw/UserFiles/upFiles/images/Hotsale.png);
     width: 1225px;
     height: 67px;
+    margin-bottom: 20px;
+}
+
+.index>.hotbox {
+    width: 1217px;
+    padding-left: 8px;
+}
+
+.index>.hotbox>a {
+    display: inline-block;
+    width: 268px;
+    height: 268px;
+    margin: 17px;
+}
+
+.index>.hotbox>a>img:first-child {
+    display: inline;
+}
+
+.index>.hotbox>a>img {
+    display: none;
+    position: absolute;
+}
+
+.index>.hotbox>a:hover>img {
+    display: inline;
 }

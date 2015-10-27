@@ -216,4 +216,21 @@ $(function() {
             });
         }
     })(); 
+    (function() {
+        var datasource = [{"image":"http://roush.hishop.com.tw/UserFiles/upFiles/images/Oa.png","cover":"http://roush.hishop.com.tw/UserFiles/upFiles/images/Ob.png","url":"#"},{"image":"http://roush.hishop.com.tw/UserFiles/upFiles/images/Oa.png","cover":"http://roush.hishop.com.tw/UserFiles/upFiles/images/Ob.png","url":"#"},{"image":"http://roush.hishop.com.tw/UserFiles/upFiles/images/Oa.png","cover":"http://roush.hishop.com.tw/UserFiles/upFiles/images/Ob.png","url":"#"},{"image":"http://roush.hishop.com.tw/UserFiles/upFiles/images/Oa.png","cover":"http://roush.hishop.com.tw/UserFiles/upFiles/images/Ob.png","url":"#"},{"image":"http://roush.hishop.com.tw/UserFiles/upFiles/images/Oa.png","cover":"http://roush.hishop.com.tw/UserFiles/upFiles/images/Ob.png","url":"#"},{"image":"http://roush.hishop.com.tw/UserFiles/upFiles/images/Oa.png","cover":"http://roush.hishop.com.tw/UserFiles/upFiles/images/Ob.png","url":"#"},{"image":"http://roush.hishop.com.tw/UserFiles/upFiles/images/Oa.png","cover":"http://roush.hishop.com.tw/UserFiles/upFiles/images/Ob.png","url":"#"},{"image":"http://roush.hishop.com.tw/UserFiles/upFiles/images/Oa.png","cover":"http://roush.hishop.com.tw/UserFiles/upFiles/images/Ob.png","url":"#"}];
+        function getdata(data) {
+            var html="";
+            for (var i=0,max=data.length;i<max;i++) {
+                html += "<a href=\"" + data[i].url + "\"><img src=\"" + data[i].image + "\"><img src=\"" + data[i].cover + "\"></a>";
+            }
+            $(".hotbox").html(html);
+        }
+        if (isLocal) {
+            getdata(datasource);
+        } else {
+            $.getJSON("xxx", function(datasource) {
+                getdata(datasource);
+            });
+        }
+    })();
 });
