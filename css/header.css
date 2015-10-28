@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 body {
     margin: 0;
 }
@@ -117,7 +119,7 @@ body {
     font-size: 17px;
     color: white;
     text-decoration: none;
-    font-family: ÃƒÂ¥Ã‚Â¾Ã‚Â®ÃƒÂ¨Ã‚Â»Ã…Â¸ÃƒÂ¦Ã‚Â­Ã‚Â£ÃƒÂ©Ã‚Â»Ã¢â‚¬ËœÃƒÂ©Ã‚Â«Ã¢â‚¬Â;
+    font-family: arial,微軟正黑體;
 }
 
 .header>.up>div>.right>span {
@@ -165,7 +167,7 @@ body {
     border-right: 1px solid #dcdcdc;
     padding: 3px 3px;
     font-size: 12px;
-    font-family: arial, ÃƒÂ¥Ã‚Â¾Ã‚Â®ÃƒÂ¨Ã‚Â»Ã…Â¸ÃƒÂ¦Ã‚Â­Ã‚Â£ÃƒÂ©Ã‚Â»Ã¢â‚¬ËœÃƒÂ©Ã‚Â«Ã¢â‚¬Â;
+    font-family: arial,微軟正黑體;;
 }
 
 .header>.up>div>.right>.bagbox>.tablebody td.end {
@@ -176,7 +178,7 @@ body {
     margin-top: 7px;
     font-size: 14px;
     margin-left: 294px;
-    font-family: ÃƒÂ¥Ã‚Â¾Ã‚Â®ÃƒÂ¨Ã‚Â»Ã…Â¸ÃƒÂ¦Ã‚Â­Ã‚Â£ÃƒÂ©Ã‚Â»Ã¢â‚¬ËœÃƒÂ©Ã‚Â«Ã¢â‚¬Â;
+    font-family: arial,微軟正黑體;;
     color: red;
     font-weight: bold;
 }
@@ -197,7 +199,7 @@ body {
 .header>.up>div>.right>.bagbox>.btn>.divlink {
     text-align: center;
     font-size: 14px;
-    font-family: ÃƒÂ¥Ã‚Â¾Ã‚Â®ÃƒÂ¨Ã‚Â»Ã…Â¸ÃƒÂ¦Ã‚Â­Ã‚Â£ÃƒÂ©Ã‚Â»Ã¢â‚¬ËœÃƒÂ©Ã‚Â«Ã¢â‚¬Â;
+    font-family: arial,微軟正黑體;;
     line-height: 28px;
     color: #f5d800;
     font-weight: bold;
@@ -278,10 +280,4 @@ body {
     margin-left: 20px;
     margin-bottom: 41px;
     width: 150px;
-}
-
-/* test */
-
-body {
-    background-color: pink;
 }

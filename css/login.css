@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+}
+
+.login {
+    width: 880px;
+    height: 619px;
+    margin: 0 auto;
+    padding-top: 117px;
+    padding-bottom: 151px;
+}
+
+.login * {
+    font-family: arial, 微軟正黑體;
+}
+
+.login>.left {
+    float: left;
+    width: 423px;
+    height: 468px;
+    border-right: 1px solid #dcdcdc;
+}
+
+.login>.left>.slogan {
+    margin-top: 41px;
+    margin-left: 82px;
+    width: 177px;
+    height: 22px;
+    background-image: url(http://roush.hishop.com.tw/UserFiles/upFiles/images/signin.png);
+}
+
+.login>.left>.slogan>.cn {
+    font-size: 0;
+}
+
+.login>.left>.slogan>.en {
+    font-size: 0;
+}
+
+.login>.left>.columns {
+    margin-left: 85px;
+    margin-top: 12px;
+}
+
+.login>.left>.columns.first {
+    margin-top: 28px;
+}
+
+.login>.left>.columns>span {
+    font-size: 14px;
+    width: 68px;
+    display: inline-block;
+}
+
+.login>.left>.columns input[type=text],
+.login>.left>.columns input[type=password] {
+    height: 19px;
+    width: 211px;
+}
+
+.login>.left>.columns input[type=checkbox] {
+    margin-left: 73px;
+    margin-top: 7px;
+}
+
+.login>.left>.columns>span.remember {
+    display: inline;
+}
+
+.login>.left>.columns>span.sp {
+    margin: 0 8px;
+}
+
+.login>.left>.columns>span.remember>a {
+	text-decoration: none;
+	color: black;
+}
+
+.login>.left>.columns.btn {
+    margin-top: 35px;
+}
+
+.login>.left>.columns.btn input {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    width: 287px;
+    height: 25px;
+}
+
+.login>.left>.columns.btn.fb {
+    margin-top: 8px;
+}
+
+.login>.right {
+    float: left;
+    width: 456px;
+    height: 468px;
+}
+
+.login>.right>.slogan {
+    margin-top: 41px;
+    margin-left: 55px;
+    background-image: url(http://roush.hishop.com.tw/UserFiles/upFiles/images/account.png);
+    width: 378px;
+    height: 22px;
+}
+
+.login>.right>.slogan>.cn {
+    font-size: 0;
+}
+
+.login>.right>.slogan>.en {
+    font-size: 0;
+}
+
+.login>.right>.columns {
+    margin-left: 59px;
+    margin-top: 12px;
+}
+
+.login>.right>.columns.first {
+    margin-top: 28px;
+}
+
+.login>.right>.columns>span {
+    font-size: 14px;
+    width: 68px;
+    display: inline-block;
+}
+
+.login>.right>.columns input[type=text],
+.login>.right>.columns input[type=password] {
+    height: 19px;
+    width: 211px;
+}
+
+.login>.right>.columns.second {
+    margin-top: 34px;
+}
+
+.login>.right>.columns.btn {
+    margin-top: 30px;
+}
+
+.login>.right>.columns.btn input {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    width: 287px;
+    height: 25px;
+}
+
+.login>.right>.columns>ul {
+    margin-left: -25px;
+    margin-top: -5px;
+}
+
+.login>.right>.columns>ul>li {
+    font-size: 13px;
+    margin-bottom: 3px;
+}
