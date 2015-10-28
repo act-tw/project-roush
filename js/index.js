@@ -225,12 +225,12 @@ $(function() {
             }
             $(".hotbox").html(html);
         }
-        if (isLocal) {
+        //if (isLocal) {
             getdata(datasource);
-        } else {
-            $.getJSON("xxx", function(datasource) {
-                getdata(datasource);
-            });
-        }
+        //} else {
+        //    $.getJSON("xxx", function(datasource) {
+        //        getdata(datasource);
+        //    });
+        //}
     })();
 });
