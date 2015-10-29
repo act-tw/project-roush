@@ -86,10 +86,12 @@ $(function() {
         $(window).scroll(function() {
             if ($(window).scrollTop() <= 19) {
                 if ($(".header").hasClass("min")) {
+                    $("#container").css("padding-top", 0);
                     $(".header").removeClass("min");
                 }
             } else {
                 if (!$(".header").hasClass("min")) {
+                    $("#container").css("padding-top", 178);
                     $(".header").addClass("min");
                 }
 
