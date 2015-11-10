@@ -1,0 +1,17 @@
+body {
+	margin:0;
+}
+
+.header {
+	width:100%;
+}
+
+.header>div {
+	width: 25%;
+	float: left;
+}
+
+.header>div>a>img {
+	width: 100%;
+	display: block;
+}
