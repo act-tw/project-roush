@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+}
+
+body #container {
+    width: auto;
+}
+
+.index {
+    width: auto;
+    margin: 0 auto;
+}
+
+.index>.up {
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.index>.up>div {
+    position: relative;
+    left: 0;
+}
+
+.index>ul {
+    margin: 0;
+    padding: 0;
+    display: block;
+    height: 18px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.index>ul>li {
+    width: 18px;
+    height: 18px;
+    list-style: none;
+    margin-right: 18px;
+    cursor: pointer;
+    background-color: gray;
+    border-radius: 9px;
+    opacity: 0.5;
+    display: inline-block;
+}
+
+.index>ul>li.active {
+    background-color: black;
+}
+
+.index>ul>li:last-child {
+    
+margin-right: 0;
+}
+
+.index>.down {
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.index>.down>div {
+    margin-top: 17px;
+
+    overflow: hidden;
+    position: relative;
+}
+
+.index>.down>div>div {
+    position: relative;
+    left: 0;
+}
+
+.index>.down>span.rightflag {
+    background-image: url(http://roush.hishop.com.tw/UserFiles/upFiles/images/a02.png);
+    width: 19px;
+    height: 19px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -9px;
+    margin-right: -37px;
+}
+
+.index>.down>span.leftflag {
+    background-image: url(http://roush.hishop.com.tw/UserFiles/upFiles/images/a01.png);
+    width: 19px;
+    height: 19px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -9px;
+    margin-left: -37px;
+}
+
+.index>.hot {
+    background-image: url(http://roush.hishop.com.tw/UserFiles/upFiles/images/mobi02.png);
+    background-size: contain;
+}
+
+.index>.hotbox {
+}
+
+.index>.hotbox>a {
+    display: inline-block;
+    width: 268px;
+    height: 268px;
+    margin: 17px;
+}
+
+.index>.hotbox>a>img:first-child {
+    display: inline;
+}
+
+.index>.hotbox>a>img {
+    display: none;
+    position: absolute;
+}
+
+.index>.hotbox>a>img {
+    display: inline;
+}
