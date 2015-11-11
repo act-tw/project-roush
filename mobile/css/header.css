@@ -4,6 +4,7 @@ body {
 
 .header {
 	width:100%;
+	overflow: hidden;
 }
 
 .header>div {
@@ -14,4 +15,9 @@ body {
 .header>div>a>img {
 	width: 100%;
 	display: block;
+}
+
+#btnCart img {
+    height: 46px;
+    width: 46px;
 }
