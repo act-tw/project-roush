@@ -89,7 +89,7 @@ $(function() {
         if (isLocal) {
             getdata(datasource);
         } else {
-            $.getJSON("../Common/CustomHtml.ashx?code=CacoAdRotator", function(datasource) {
+            $.getJSON("../../../../Common/CustomHtml.ashx?code=CacoAdRotator", function(datasource) {
                 getdata(datasource);
             });
         }
@@ -220,7 +220,7 @@ $(function() {
         if (isLocal) {
             getdata(datasource);
         } else {
-            $.getJSON("../Common/CustomHtml.ashx?code=CacoAdRotatorManual", function(datasource) {
+            $.getJSON("../../../../Common/CustomHtml.ashx?code=CacoAdRotatorManual", function(datasource) {
                 getdata(datasource);
             });
         }
@@ -246,7 +246,7 @@ $(function() {
         if (isLocal) {
             getdata(datasource);
         } else {
-            $.getJSON("../shop/customuc/c61roush201510/data/", function (datasource) {
+            $.getJSON("../../../../shop/customuc/c61roush201510/data/", function (datasource) {
                 getdata(datasource);
             });
         }
